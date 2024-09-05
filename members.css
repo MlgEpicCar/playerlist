@@ -1,0 +1,90 @@
+/* sorry debuggyo i needed to steal, i AM the phantom thief giberal, hope u undersand, im also just bored in my class, im in here for 3 hours, i need a project, sorry! */
+.member {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    padding: 0px 15px;
+    border-radius: 30px;
+    height: 200px;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 20%; /* width of boxios */
+    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.2) inset,
+    0 8px 20px 0 #00000083;
+    animation-name: goup;
+    animation-duration: 1s;
+    animation-delay: calc(var(--animation-order) * 75ms);
+    animation-fill-mode: backwards;
+    margin-bottom: 15px;
+}
+
+.member:hover {
+    transform: scale(1.03);
+    filter: brightness(1.1);
+}
+
+.member img {
+    filter: drop-shadow(0px 0px 20px #ffffff23)
+}
+
+.memberinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.memberinfo p {
+    margin-block: 0;
+}
+
+.memberinfo img {
+    image-rendering: pixelated;
+    border-radius: 5px;
+}
+
+.memberinfo * {
+    transition: 200ms;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 25pt;
+    margin-bottom: -10px
+}
+
+@media screen and (max-width: 500px) {   
+    .name {
+        font-size: 16pt;
+    }
+    .memberinfo p:not(.name) {
+        font-size: 11pt;
+    }
+    .memberinfo img {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media screen and (min-width: 1000px) {   
+    .members {
+        display: grid; /* used to be display: flex; (this is hella plot relevant) */
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+/* mlgepiccar segement */
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18pt;
+    transition: 500ms;
+    text-wrap: nowrap;
+}

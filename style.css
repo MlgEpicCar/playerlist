@@ -1,0 +1,105 @@
+@keyframes goup {
+    0% {transform:translateY(10px); opacity:0;}
+    100% {transform:translateY(0); opacity:1;}
+}
+
+html, body {
+    background-color: #171717;
+    font-family: Figtree;
+}
+
+.header {
+    background-color: #793251;
+    height: 35px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    box-shadow: #793251 0px 0px 100px;
+    position: sticky;
+}
+
+.header img {
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.header img:hover {
+    filter: drop-shadow(0px 0px 10px #E1B351);
+}
+
+.container {
+    margin: -8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header a {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 2px solid #E1B35122;
+    transition: 200ms cubic-bezier(0.19, 1, 0.22, 1);
+    color: #FEFBFB;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+}
+
+.header a:hover {
+    background-color: #E1B35122;
+    border: 2px solid #E1B35166;
+    transition: 200ms cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 5px 20px #E1B35166;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.header a.currentpage {
+    background-color: #E1B351;
+    border: 2px solid #FFFFFF44;
+    box-shadow: 0px 5px 20px #E1B35188;
+    color: black;
+    font-weight: 700;
+}
+
+.content {
+    color: white;
+    padding: 15px;
+    height: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.discord {
+    margin-left: 20px;
+}
+
+.carthage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carthage p {
+    color: #E1B351;
+    font-weight: 700;
+    font-size: 18pt;
+    transition: 500ms;
+    text-wrap: nowrap;
+}
+
+@media screen and (max-width: 500px) {
+    .carthage {
+        width: 32px;
+    }
+    .carthage p {
+        transform: translateX(-700px);
+        visibility: hidden;
+    }
+}
