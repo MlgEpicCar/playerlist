@@ -9,15 +9,15 @@ html, body {
 }
 
 .header {
-    background-color: #793251;
+    background-color: transparent;
     height: 35px;
     padding: 15px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
-    box-shadow: #793251 0px 0px 100px;
+    justify-content: center;
     position: sticky;
+    margin-bottom: -15px;
 }
 
 .header img {
