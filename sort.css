@@ -133,3 +133,10 @@ u wanted the order of the cards to be changeable, you did this too urself, do yo
     grid-column: 4;
     --animation-order: 1;
 }
+.member:nth-of-type(19) {
+    /*tacoman*/
+    background-image: url(images/backgrounds/gibraltar.png);
+    grid-row: 6;
+    grid-column: 1;
+    --animation-order: 1;
+}
