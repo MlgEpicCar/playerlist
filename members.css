@@ -1,4 +1,8 @@
 /* sorry debuggyo i needed to steal, i AM the phantom thief giberal, hope u undersand, im also just bored in my class, im in here for 3 hours, i need a project, sorry! */
+.members {
+    z-index: 1;
+}
+
 .member {
     margin-top: 5px;
     margin-right: 10px;
@@ -73,6 +77,7 @@
 @media screen and (min-width: 1000px) {   
     .members {
         display: grid; /* used to be display: flex; (this is hella plot relevant) */
+        
         flex-wrap: wrap;
         flex-direction: row;
     }
