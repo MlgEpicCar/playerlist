@@ -1,0 +1,156 @@
+{
+  "players": [
+    {
+      "name": "Razikof",
+      "online": "Currently",
+      "discord": "razikof",
+      "nicknames": ["Kof"],
+      "religion": "Deggism",
+      "nations": ["Carthage"]
+    },
+    {
+      "name": "Thilman",
+      "online": "Currently",
+      "discord": "._drog_.",
+      "nicknames": ["Drog"],
+      "religion": "Deggism",
+      "nations": ["Carthage"]
+    },
+    {
+      "name": "debuggyo",
+      "online": "Currently",
+      "discord": "debuggyo",
+      "nicknames": ["debuggy"],
+      "religion": "Deggism",
+      "nations": ["Carthage"]
+    },
+    {
+      "name": "ovcak5",
+      "online": "Currently",
+      "discord": "ovack5",
+      "nicknames": ["ovack", "the driver"],
+      "religion": "Deggism",
+      "nations": ["Carthage"]
+    },
+    {
+      "name": "SaxboyLaFranks",
+      "online": "Currently",
+      "discord": "saxboylafranks",
+      "nicknames": ["Sax", "SexboyLaFreaks"],
+      "religion": "Deggism",
+      "nations": ["Ireland", "Carthage"]
+    },
+    {
+      "name": "TareqZayn",
+      "online": "Currently",
+      "discord": "tareqzayn",
+      "nicknames": ["Tac"],
+      "religion": "Tac",
+      "nations": ["Tac"]
+    },
+    {
+      "name": "MlgEpicCar",
+      "online": "Currently",
+      "discord": "mlgepiccar",
+      "nicknames": ["Mlg", "emelgee"],
+      "religion": "Bannism, Coptic one fr",
+      "nations": ["Italy", "Gibraltar"]
+    },
+    {
+      "name": "MexicanPai",
+      "online": "Currently",
+      "discord": "paii.paii",
+      "nicknames": ["Pie", "Pai"],
+      "religion": "aA",
+      "nations": ["Italy"]
+    },
+    {
+      "name": "Gestalten",
+      "online": "Currently",
+      "discord": "gestalten",
+      "nicknames": ["Ges", "John", "John Gestalten"],
+      "religion": "Coptic",
+      "nations": ["CKLA"]
+    },
+    {
+      "name": "LysFisk",
+      "online": "Currently",
+      "discord": "idk",
+      "nicknames": ["Lys"],
+      "religion": "Coptic",
+      "nations": ["CKLA"]
+    },
+    {
+      "name": "Tangmar",
+      "online": "Currently",
+      "discord": "tangmar",
+      "nicknames": ["Tangy"],
+      "religion": "Bannism",
+      "nations": ["CKLA", "Gibraltar"]
+    },
+    {
+      "name": "Colusius",
+      "online": "Currently",
+      "discord": "colusius",
+      "nicknames": ["Colu"],
+      "religion": "Coptic",
+      "nations": ["Denmark"]
+    },
+    {
+      "name": "Hatrickexe",
+      "online": "Currently",
+      "discord": "hatrickexe",
+      "nicknames": ["Hockey Guy"],
+      "religion": "Bannism",
+      "nations": ["Ireland"]
+    },
+    {
+      "name": "IcYPoP",
+      "online": "Currently",
+      "discord": "idk",
+      "nicknames": ["Icy"],
+      "religion": "Bannism?",
+      "nations": ["Hatrickexeland", "Ireland", "Gibraltar"]
+    },
+    {
+      "name": "Pherno",
+      "online": "Currently",
+      "discord": "idk",
+      "nicknames": ["Italian Guy"],
+      "religion": "Coptic",
+      "nations": ["Italy"]
+    },
+    {
+      "name": "TheMagicalChez",
+      "online": "Currently",
+      "discord": "themagicalchez?",
+      "nicknames": ["Chez"],
+      "religion": "Bannism proly",
+      "nations": ["Ireland"]
+    },
+    {
+      "name": "titaniumcow",
+      "online": "Currently",
+      "discord": ".magnar.",
+      "nicknames": ["tit"],
+      "religion": "Coptic i think??",
+      "nations": ["Altair"]
+    },
+    {
+      "name": "Taigus",
+      "online": "Currently",
+      "discord": "winterstars2131",
+      "nicknames": ["taigus", "winter"],
+      "religion": "idk",
+      "nations": ["Altair"]
+    },
+    {
+      "name": "Tacoman",
+      "online": "Currently",
+      "discord": "smth",
+      "nicknames": ["taco"],
+      "religion": "None",
+      "nations": ["Italy", "Gibraltar"]
+    }
+  ]
+}
