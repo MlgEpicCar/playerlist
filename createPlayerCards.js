@@ -7,8 +7,7 @@ fetch('players.json')   // This will be an API endpoint at some point. Currently
             memberDiv.classList.add('member');
 
             const playerCard = `
-           
-                <img src="https://starlightskins.lunareclipse.studio/render/walking/${player.name}/full" height="150">
+                <img src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.name}/full" height="150">
                 <div class="memberinfo">
                     <p class="name"><img src="https://mc-heads.net/avatar/${player.name}" height="30" width="30"> ${player.name}</p>
                     <p><b>Online:</b> ${player.online}</p>
@@ -20,6 +19,7 @@ fetch('players.json')   // This will be an API endpoint at some point. Currently
             `;
 
             memberDiv.innerHTML = playerCard;
+            memberDiv.id = player.name;
             document.querySelector('.members').appendChild(memberDiv);
         });
     })
