@@ -25,7 +25,7 @@
       "nations": ["Carthage"]
     },
     {
-      "name": "Ovalgoatkid",
+      "name": "DanTDM",
       "online": "Currently",
       "discord": "ovack5",
       "nicknames": ["ovack", "the driver"],
@@ -151,6 +151,14 @@
       "nicknames": ["taco"],
       "religion": "None",
       "nations": ["Italy", "Gibraltar"]
+    },
+    {
+      "name": "blurryyhallow",
+      "online": "Currently",
+      "discord": "smth",
+      "nicknames": ["hallow"],
+      "religion": "None",
+      "nations": ["CKLA", "Gibraltar"]
     }
   ]
 }
