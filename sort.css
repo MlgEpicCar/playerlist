@@ -79,7 +79,7 @@ u wanted the order of the cards to be changeable, you did this too urself, do yo
 }
 .member:nth-of-type(11) {
     /*tangmar*/
-    background-image: url(images/backgrounds/gibraltar.png);
+    background-image: url(images/backgrounds/tangymar.png);
     grid-row: 3;
     grid-column: 3;
     --animation-order: 1;
