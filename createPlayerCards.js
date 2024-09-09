@@ -7,7 +7,7 @@ fetch('players.json')   // This will be an API endpoint at some point. Currently
             memberDiv.classList.add('member');
 
             const playerCard = `
-                <img src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.name}/full" height="150">
+                <p><img src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.name}/full" height="150"></p>
                 <div class="memberinfo">
                     <p class="name"><img src="https://mc-heads.net/avatar/${player.name}" height="30" width="30"> ${player.name}</p>
                     <p><b>Online:</b> ${player.online}</p>
@@ -27,7 +27,7 @@ fetch('players.json')   // This will be an API endpoint at some point. Currently
         console.error('Error loading player data:', error);
     });
 
-
+/*is this the true power of sex mode?*/
 
 /*
 NOTE:

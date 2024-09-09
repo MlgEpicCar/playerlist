@@ -25,7 +25,7 @@
       "nations": ["Carthage"]
     },
     {
-      "name": "DanTDM",
+      "name": "ovcak5",
       "online": "Currently",
       "discord": "ovack5",
       "nicknames": ["ovack", "the driver"],
@@ -159,6 +159,78 @@
       "nicknames": ["hallow"],
       "religion": "None",
       "nations": ["CKLA", "Gibraltar"]
+    },
+    {
+      "name": "brandonusa",
+      "online": "Currently",
+      "discord": "besser",
+      "nicknames": ["besser"],
+      "religion": "None",
+      "nations": ["USAI"]
+    },
+    {
+      "name": "josamo8",
+      "online": "Currently",
+      "discord": "fs400",
+      "nicknames": ["josamo"],
+      "religion": "None",
+      "nations": ["USAI"]
+    },
+    {
+      "name": "GeneticEmo",
+      "online": "Currently",
+      "discord": "geneticemo",
+      "nicknames": ["genetic, emo"],
+      "religion": "None",
+      "nations": ["Ireland"]
+    },
+    {
+      "name": "dairypig",
+      "online": "Currently",
+      "discord": "dairypig",
+      "nicknames": ["dairy"],
+      "religion": "None",
+      "nations": ["Swiss"]
+    },
+    {
+      "name": "_NolanPlayz17_",
+      "online": "Currently",
+      "discord": "nolan_h_17",
+      "nicknames": ["nolan"],
+      "religion": "None",
+      "nations": ["Italy, Ireland"]
+    },
+    {
+      "name": "Thenoobcraft74",
+      "online": "Currently",
+      "discord": "theeno74",
+      "nicknames": ["theeno"],
+      "religion": "None",
+      "nations": ["Modistan"]
+    },
+    {
+      "name": "Bluesrains",
+      "online": "Currently",
+      "discord": "bluesrains",
+      "nicknames": ["blues"],
+      "religion": "None",
+      "nations": ["Modistan"]
+    },
+    {
+      "name": "MRDamDan",
+      "online": "Currently",
+      "discord": "MRDamDan",
+      "nicknames": ["dan"],
+      "religion": "None",
+      "nations": ["manchestersigmaunited"]
+    },
+    {
+      "name": "Submadoge",
+      "online": "Currently",
+      "discord": "idk",
+      "nicknames": ["subma"],
+      "religion": "None",
+      "nations": ["Altair"]
     }
   ]
 }
