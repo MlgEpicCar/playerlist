@@ -1,4 +1,4 @@
-fetch('../data/players.json')   // This will be an API endpoint at some point. Currently it just reads players.json
+fetch('../data/players.json')
     .then(response => response.json())
     .then(data => {
         const players = data.players;
@@ -6,8 +6,10 @@ fetch('../data/players.json')   // This will be an API endpoint at some point. C
             const memberDiv = document.createElement('div');
             memberDiv.classList.add('member');
 
+            memberDiv.style.backgroundImage = `url(${player.backgroundImage})`;
+
             const playerCard = `
-                <p><img src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.name}/full" height="150"></p>
+                <p><img src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.name}/full" height="150" alt="${player.name} body"></p>
                 <div class="memberinfo">
                     <p class="name"><img src="https://mc-heads.net/avatar/${player.name}" height="30" width="30"> ${player.name}</p>
                     <p><b>Online:</b> ${player.online}</p>
@@ -26,8 +28,8 @@ fetch('../data/players.json')   // This will be an API endpoint at some point. C
     .catch(error => {
         console.error('Error loading player data:', error);
     });
-
 /*is this the true power of sex mode?*/
+
 
 /*
 NOTE:

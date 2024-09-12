@@ -6,7 +6,8 @@
       "discord": "razikof",
       "nicknames": ["Kof"],
       "religion": "Deggism",
-      "nations": ["Carthage"]
+      "nations": ["Carthage"],
+      "backgroundImage": "../images/backgrounds/carthage.png"
     },
     {
       "name": "Thilman",
@@ -14,7 +15,8 @@
       "discord": "._drog_.",
       "nicknames": ["Drog"],
       "religion": "Deggism",
-      "nations": ["Carthage"]
+      "nations": ["Carthage"],
+      "backgroundImage": "../images/backgrounds/carthage.png"
     },
     {
       "name": "debuggyo",
@@ -22,7 +24,8 @@
       "discord": "debuggyo",
       "nicknames": ["debuggy"],
       "religion": "Deggism",
-      "nations": ["Carthage"]
+      "nations": ["Carthage"],
+      "backgroundImage": "../images/backgrounds/carthage.png"
     },
     {
       "name": "ovcak5",
@@ -30,7 +33,8 @@
       "discord": "ovack5",
       "nicknames": ["ovack", "the driver"],
       "religion": "Deggism",
-      "nations": ["Carthage"]
+      "nations": ["Carthage"],
+      "backgroundImage": "../images/backgrounds/carthage.png"
     },
     {
       "name": "SaxboyLaFranks",
@@ -38,7 +42,8 @@
       "discord": "saxboylafranks",
       "nicknames": ["Sax", "SexboyLaFreaks"],
       "religion": "Deggism",
-      "nations": ["Ireland", "Carthage"]
+      "nations": ["Ireland", "Carthage"],
+      "backgroundImage": "../images/backgrounds/saxboylafranks.png"
     },
     {
       "name": "TareqZayn",
@@ -46,7 +51,8 @@
       "discord": "tareqzayn",
       "nicknames": ["Tac"],
       "religion": "Tac",
-      "nations": ["Tac"]
+      "nations": ["Tac"],
+      "backgroundImage": "../images/backgrounds/carthage.png"
     },
     {
       "name": "MlgEpicCar",
@@ -54,7 +60,8 @@
       "discord": "mlgepiccar",
       "nicknames": ["Mlg", "emelgee"],
       "religion": "Bannism, Coptic one fr",
-      "nations": ["Italy", "Gibraltar"]
+      "nations": ["Italy", "Gibraltar"],
+      "backgroundImage": "../images/backgrounds/mlgepiccar.png"
     },
     {
       "name": "MexicanPai",
@@ -62,7 +69,8 @@
       "discord": "paii.paii",
       "nicknames": ["Pie", "Pai"],
       "religion": "aA",
-      "nations": ["Italy"]
+      "nations": ["Italy"],
+      "backgroundImage": "../images/backgrounds/coolneighborhood.png"
     },
     {
       "name": "Gestalten",
@@ -70,7 +78,8 @@
       "discord": "gestalten",
       "nicknames": ["Ges", "John", "John Gestalten"],
       "religion": "Coptic",
-      "nations": ["CKLA"]
+      "nations": ["CKLA"],
+      "backgroundImage": "(../images/backgrounds/gestalten.png"
     },
     {
       "name": "LysFisk",
@@ -78,7 +87,8 @@
       "discord": "idk",
       "nicknames": ["Lys"],
       "religion": "Coptic",
-      "nations": ["CKLA"]
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
     },
     {
       "name": "Tangmar",
@@ -86,7 +96,8 @@
       "discord": "tangmar",
       "nicknames": ["Tangy"],
       "religion": "Bannism",
-      "nations": ["CKLA", "Gibraltar"]
+      "nations": ["CKLA", "Gibraltar"],
+      "backgroundImage": "../images/backgrounds/tangymar.png"
     },
     {
       "name": "Colusius",
@@ -94,7 +105,8 @@
       "discord": "colusius",
       "nicknames": ["Colu"],
       "religion": "Coptic",
-      "nations": ["Denmark"]
+      "nations": ["Denmark"],
+      "backgroundImage": "../images/backgrounds/colusius.png"
     },
     {
       "name": "Hatrickexe",
@@ -102,7 +114,8 @@
       "discord": "hatrickexe",
       "nicknames": ["Hockey Guy"],
       "religion": "Bannism",
-      "nations": ["Ireland"]
+      "nations": ["Ireland"],
+      "backgroundImage": "../images/backgrounds/ireland.png"
     },
     {
       "name": "_IcYPoP_",
@@ -110,7 +123,8 @@
       "discord": "idk",
       "nicknames": ["Icy"],
       "religion": "Bannism?",
-      "nations": ["Hatrickexeland", "Ireland", "Gibraltar"]
+      "nations": ["Hatrickexeland", "Ireland", "Gibraltar"],
+      "backgroundImage": "../images/backgrounds/ireland.png"
     },
     {
       "name": "Phernoxar",
@@ -118,7 +132,8 @@
       "discord": "idk",
       "nicknames": ["Italian Guy"],
       "religion": "Coptic",
-      "nations": ["Italy"]
+      "nations": ["Italy"],
+      "backgroundImage": "../images/backgrounds/coolneighborhood.png"
     },
     {
       "name": "TheMagicalChez",
@@ -126,7 +141,8 @@
       "discord": "themagicalchez?",
       "nicknames": ["Chez"],
       "religion": "Bannism proly",
-      "nations": ["Ireland"]
+      "nations": ["Ireland"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "titaniumcow",
@@ -134,7 +150,8 @@
       "discord": ".magnar.",
       "nicknames": ["tit"],
       "religion": "Coptic i think??",
-      "nations": ["Altair"]
+      "nations": ["Altair"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "Taigus",
@@ -142,7 +159,8 @@
       "discord": "winterstars2131",
       "nicknames": ["taigus", "winter"],
       "religion": "idk",
-      "nations": ["Altair"]
+      "nations": ["Altair"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "taco_74",
@@ -150,7 +168,8 @@
       "discord": "smth",
       "nicknames": ["taco"],
       "religion": "None",
-      "nations": ["Italy", "Gibraltar"]
+      "nations": ["Italy", "Gibraltar"],
+      "backgroundImage": "../images/backgrounds/coolneighborhood.png"
     },
     {
       "name": "blurryyhallow",
@@ -158,7 +177,8 @@
       "discord": "smth",
       "nicknames": ["hallow"],
       "religion": "None",
-      "nations": ["CKLA", "Gibraltar"]
+      "nations": ["CKLA", "Gibraltar"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "brandonusa",
@@ -166,7 +186,8 @@
       "discord": "besser",
       "nicknames": ["besser"],
       "religion": "None",
-      "nations": ["USAI"]
+      "nations": ["USAI"],
+      "backgroundImage": "../images/backgrounds/usai_beacon.png"
     },
     {
       "name": "josamo8",
@@ -174,7 +195,8 @@
       "discord": "fs400",
       "nicknames": ["josamo"],
       "religion": "None",
-      "nations": ["USAI"]
+      "nations": ["USAI"],
+      "backgroundImage": "../images/backgrounds/usai_obsidian.png"
     },
     {
       "name": "GeneticEmo",
@@ -182,7 +204,8 @@
       "discord": "geneticemo",
       "nicknames": ["genetic, emo"],
       "religion": "None",
-      "nations": ["Ireland"]
+      "nations": ["Ireland"],
+      "backgroundImage": "../images/backgrounds/ireland.png"
     },
     {
       "name": "dairypig",
@@ -190,7 +213,8 @@
       "discord": "dairypig",
       "nicknames": ["dairy"],
       "religion": "None",
-      "nations": ["Swiss"]
+      "nations": ["Swiss"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "_NolanPlayz17_",
@@ -198,7 +222,8 @@
       "discord": "nolan_h_17",
       "nicknames": ["nolan"],
       "religion": "None",
-      "nations": ["Italy, Ireland"]
+      "nations": ["Italy, Ireland"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "Thenoobcraft74",
@@ -206,7 +231,8 @@
       "discord": "theeno74",
       "nicknames": ["theeno"],
       "religion": "None",
-      "nations": ["Modistan"]
+      "nations": ["Modistan"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "Bluesrains",
@@ -214,7 +240,8 @@
       "discord": "bluesrains",
       "nicknames": ["blues"],
       "religion": "None",
-      "nations": ["Modistan"]
+      "nations": ["Modistan"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "MRDamDan",
@@ -222,7 +249,8 @@
       "discord": "MRDamDan",
       "nicknames": ["dan"],
       "religion": "None",
-      "nations": ["manchestersigmaunited"]
+      "nations": ["manchestersigmaunited"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
       "name": "Submadoge",
@@ -230,7 +258,9 @@
       "discord": "idk",
       "nicknames": ["subma"],
       "religion": "None",
-      "nations": ["Altair"]
+      "nations": ["Altair"],
+      "backgroundImage": "../images/backgrounds/gibraltar.png"
+
     }
   ]
 }
