@@ -1,40 +1,41 @@
-/* sorry debuggyo i needed to steal, i AM the phantom thief giberal, hope u undersand, im also just bored in my class, im in here for 3 hours, i need a project, sorry! */
+.title {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18pt;
+    transition: 1s;
+    text-wrap: nowrap;
+}
+
+/* Should replace this with something simple. Its how usainet players works, and that looks decent */
 .members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(24em, 1fr));
+    gap: 1em;
     z-index: 1;
+    padding: auto;
 }
 
 .member {
     margin-top: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
     padding: 0px 15px;
     border-radius: 30px;
-    height: 200px;
+    display: flex;
     align-items: center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    flex-grow: 1;
-    flex-basis: 0;
-    min-width: 20%; /* width of boxios */
-    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
     box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.2) inset,
     0 8px 20px 0 #00000083;
     animation-name: goup;
     animation-duration: 1s;
     animation-delay: calc(var(--animation-order) * 75ms);
     animation-fill-mode: backwards;
-    margin-bottom: 15px;
+    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .member:hover {
-    /* transform: scale(1.03); */
-    filter: brightness(1.1);
-}
-
-.member img {
-    filter: drop-shadow(0px 0px 20px #ffffff23)
+    filter: brightness(1.2);
 }
 
 .memberinfo {
@@ -59,7 +60,7 @@
 .name {
     font-weight: 800;
     font-size: 25pt;
-    margin-bottom: -10px
+    margin-bottom: -10px;
 }
 
 @media screen and (max-width: 500px) {   
@@ -75,22 +76,3 @@
     }
 }
 
-@media screen and (min-width: 1000px) {   
-    .members {
-        display: grid; /* used to be display: flex; (this is hella plot relevant) */
-        
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-}
-
-/* mlgepiccar segement */
-
-.title {
-    text-align: center;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 18pt;
-    transition: 500ms;
-    text-wrap: nowrap;
-}

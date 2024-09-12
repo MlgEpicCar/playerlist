@@ -68,32 +68,3 @@ html, body {
     flex-grow: 1;
     overflow-y: auto;
 }
-
-.discord {
-    margin-left: 20px;
-}
-
-.carthage {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-}
-
-.carthage p {
-    color: #E1B351;
-    font-weight: 700;
-    font-size: 18pt;
-    transition: 500ms;
-    text-wrap: nowrap;
-}
-
-@media screen and (max-width: 500px) {
-    .carthage {
-        width: 32px;
-    }
-    .carthage p {
-        transform: translateX(-700px);
-        visibility: hidden;
-    }
-}
