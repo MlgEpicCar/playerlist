@@ -1,4 +1,4 @@
-fetch('players.json')   // This will be an API endpoint at some point. Currently it just reads players.json
+fetch('../data/players.json')   // This will be an API endpoint at some point. Currently it just reads players.json
     .then(response => response.json())
     .then(data => {
         const players = data.players;
