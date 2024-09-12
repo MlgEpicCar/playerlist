@@ -1,10 +1,10 @@
 {
   "players": [
     {
-      "name": "Razikof",
+      "name": "Kof",
       "online": "Currently",
       "discord": "razikof",
-      "nicknames": ["Kof"],
+      "gamertag": "Razikof",
       "religion": "Deggism",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png"
@@ -13,25 +13,25 @@
       "name": "Thilman",
       "online": "Currently",
       "discord": "._drog_.",
-      "nicknames": ["Drog"],
+      "gamertag": "Thilman",
       "religion": "Deggism",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png"
     },
     {
-      "name": "debuggyo",
+      "name": "Debuggy",
       "online": "Currently",
       "discord": "debuggyo",
-      "nicknames": ["debuggy"],
+      "gamertag": "debuggyo",
       "religion": "Deggism",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png"
     },
     {
-      "name": "ovcak5",
+      "name": "Ovack",
       "online": "Currently",
-      "discord": "ovack5",
-      "nicknames": ["ovack", "the driver"],
+      "discord": "idk",
+      "gamertag": "ovcak5",
       "religion": "Deggism",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png"
@@ -40,7 +40,7 @@
       "name": "SaxboyLaFranks",
       "online": "Currently",
       "discord": "saxboylafranks",
-      "nicknames": ["Sax", "SexboyLaFreaks"],
+      "gamertag": "SaxboyLaFranks",
       "religion": "Deggism",
       "nations": ["Ireland", "Carthage"],
       "backgroundImage": "../images/backgrounds/saxboylafranks.png"
@@ -49,7 +49,7 @@
       "name": "TareqZayn",
       "online": "Currently",
       "discord": "tareqzayn",
-      "nicknames": ["Tac"],
+      "gamertag": "TareqZayn",
       "religion": "Tac",
       "nations": ["Tac"],
       "backgroundImage": "../images/backgrounds/carthage.png"
@@ -58,16 +58,16 @@
       "name": "MlgEpicCar",
       "online": "Currently",
       "discord": "mlgepiccar",
-      "nicknames": ["Mlg", "emelgee"],
+      "gamertag": "MlgEpicCar",
       "religion": "Bannism, Coptic one fr",
       "nations": ["Italy", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/mlgepiccar.png"
     },
     {
-      "name": "MexicanPai",
+      "name": "Pai",
       "online": "Currently",
       "discord": "paii.paii",
-      "nicknames": ["Pie", "Pai"],
+      "gamertag": "MexicanPai",
       "religion": "aA",
       "nations": ["Italy"],
       "backgroundImage": "../images/backgrounds/coolneighborhood.png"
@@ -76,16 +76,16 @@
       "name": "Gestalten",
       "online": "Currently",
       "discord": "gestalten",
-      "nicknames": ["Ges", "John", "John Gestalten"],
+      "gamertag": "Gestalten",
       "religion": "Coptic",
       "nations": ["CKLA"],
-      "backgroundImage": "(../images/backgrounds/gestalten.png"
+      "backgroundImage": "../images/backgrounds/gestalten.png"
     },
     {
       "name": "LysFisk",
       "online": "Currently",
       "discord": "idk",
-      "nicknames": ["Lys"],
+      "gamertag": "LysFisk",
       "religion": "Coptic",
       "nations": ["CKLA"],
       "backgroundImage": "../images/backgrounds/ckla.webp"
@@ -94,7 +94,7 @@
       "name": "Tangmar",
       "online": "Currently",
       "discord": "tangmar",
-      "nicknames": ["Tangy"],
+      "gamertag": "Tangmar",
       "religion": "Bannism",
       "nations": ["CKLA", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/tangymar.png"
@@ -103,52 +103,52 @@
       "name": "Colusius",
       "online": "Currently",
       "discord": "colusius",
-      "nicknames": ["Colu"],
+      "gamertag": "Colusius",
       "religion": "Coptic",
       "nations": ["Denmark"],
       "backgroundImage": "../images/backgrounds/colusius.png"
     },
     {
-      "name": "Hatrickexe",
+      "name": "Hatrick",
       "online": "Currently",
       "discord": "hatrickexe",
-      "nicknames": ["Hockey Guy"],
+      "gamertag": "Hatrickexe",
       "religion": "Bannism",
+      "nations": ["Ireland", "Gibraltar"],
+      "backgroundImage": "../images/backgrounds/ireland.png"
+    },
+    {
+      "name": "IcYPoP",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "_IcYPoP_",
+      "religion": "Bannism?",
       "nations": ["Ireland"],
       "backgroundImage": "../images/backgrounds/ireland.png"
     },
     {
-      "name": "_IcYPoP_",
+      "name": "Pherno",
       "online": "Currently",
       "discord": "idk",
-      "nicknames": ["Icy"],
-      "religion": "Bannism?",
-      "nations": ["Hatrickexeland", "Ireland", "Gibraltar"],
-      "backgroundImage": "../images/backgrounds/ireland.png"
-    },
-    {
-      "name": "Phernoxar",
-      "online": "Currently",
-      "discord": "idk",
-      "nicknames": ["Italian Guy"],
+      "gamertag": "Phernoxar",
       "religion": "Coptic",
       "nations": ["Italy"],
       "backgroundImage": "../images/backgrounds/coolneighborhood.png"
     },
     {
-      "name": "TheMagicalChez",
+      "name": "Chez",
       "online": "Currently",
       "discord": "themagicalchez?",
-      "nicknames": ["Chez"],
+      "gamertag": "TheMagicalChez",
       "religion": "Bannism proly",
       "nations": ["Ireland"],
-      "backgroundImage": "../images/backgrounds/gibraltar.png"
+      "backgroundImage": "../images/backgrounds/ireland.png"
     },
     {
       "name": "titaniumcow",
       "online": "Currently",
       "discord": ".magnar.",
-      "nicknames": ["tit"],
+      "gamertag": "titaniumcow",
       "religion": "Coptic i think??",
       "nations": ["Altair"],
       "backgroundImage": "../images/backgrounds/gibraltar.png"
@@ -157,7 +157,7 @@
       "name": "Taigus",
       "online": "Currently",
       "discord": "winterstars2131",
-      "nicknames": ["taigus", "winter"],
+      "gamertag": "Taigus",
       "religion": "idk",
       "nations": ["Altair"],
       "backgroundImage": "../images/backgrounds/gibraltar.png"
@@ -166,34 +166,34 @@
       "name": "taco_74",
       "online": "Currently",
       "discord": "smth",
-      "nicknames": ["taco"],
+      "gamertag": "taco_74",
       "religion": "None",
       "nations": ["Italy", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/coolneighborhood.png"
     },
     {
-      "name": "blurryyhallow",
+      "name": "Hallow",
       "online": "Currently",
       "discord": "smth",
-      "nicknames": ["hallow"],
+      "gamertag": "blurryyhallow",
       "religion": "None",
       "nations": ["CKLA", "Gibraltar"],
-      "backgroundImage": "../images/backgrounds/gibraltar.png"
+      "backgroundImage": "../images/backgrounds/ckla.webp"
     },
     {
-      "name": "brandonusa",
+      "name": "besser",
       "online": "Currently",
       "discord": "besser",
-      "nicknames": ["besser"],
+      "gamertag": "brandonusa",
       "religion": "None",
       "nations": ["USAI"],
       "backgroundImage": "../images/backgrounds/usai_beacon.png"
     },
     {
-      "name": "josamo8",
+      "name": "josamo",
       "online": "Currently",
       "discord": "fs400",
-      "nicknames": ["josamo"],
+      "gamertag": "josamo8",
       "religion": "None",
       "nations": ["USAI"],
       "backgroundImage": "../images/backgrounds/usai_obsidian.png"
@@ -202,43 +202,43 @@
       "name": "GeneticEmo",
       "online": "Currently",
       "discord": "geneticemo",
-      "nicknames": ["genetic, emo"],
+      "gamertag": "GeneticEmo",
       "religion": "None",
       "nations": ["Ireland"],
       "backgroundImage": "../images/backgrounds/ireland.png"
     },
     {
-      "name": "dairypig",
+      "name": "dairy",
       "online": "Currently",
       "discord": "dairypig",
-      "nicknames": ["dairy"],
-      "religion": "None",
-      "nations": ["Swiss"],
-      "backgroundImage": "../images/backgrounds/gibraltar.png"
+      "gamertag": "dairypig",
+      "religion": "Bannism",
+      "nations": ["Italy, Switzerland"],
+      "backgroundImage": "../images/backgrounds/coolneighborhood.png"
     },
     {
-      "name": "_NolanPlayz17_",
+      "name": "Nolan",
       "online": "Currently",
       "discord": "nolan_h_17",
-      "nicknames": ["nolan"],
+      "gamertag": "_NolanPlayz17_",
       "religion": "None",
       "nations": ["Italy, Ireland"],
-      "backgroundImage": "../images/backgrounds/gibraltar.png"
+      "backgroundImage": "../images/backgrounds/coolneighborhood.png"
     },
     {
-      "name": "Thenoobcraft74",
+      "name": "Theeno",
       "online": "Currently",
       "discord": "theeno74",
-      "nicknames": ["theeno"],
+      "gamertag": "Thenoobcraft74",
       "religion": "None",
       "nations": ["Modistan"],
       "backgroundImage": "../images/backgrounds/gibraltar.png"
     },
     {
-      "name": "Bluesrains",
+      "name": "blues",
       "online": "Currently",
       "discord": "bluesrains",
-      "nicknames": ["blues"],
+      "gamertag": "bluesrains",
       "religion": "None",
       "nations": ["Modistan"],
       "backgroundImage": "../images/backgrounds/gibraltar.png"
@@ -247,7 +247,7 @@
       "name": "MRDamDan",
       "online": "Currently",
       "discord": "MRDamDan",
-      "nicknames": ["dan"],
+      "gamertag": "MRDamDan",
       "religion": "None",
       "nations": ["manchestersigmaunited"],
       "backgroundImage": "../images/backgrounds/gibraltar.png"
@@ -256,11 +256,199 @@
       "name": "Submadoge",
       "online": "Currently",
       "discord": "idk",
-      "nicknames": ["subma"],
+      "gamertag": "Submadoge",
       "religion": "None",
       "nations": ["Altair"],
       "backgroundImage": "../images/backgrounds/gibraltar.png"
-
+    },
+    {
+      "name": "User8395",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "User8395",
+      "religion": "None",
+      "nations": ["IEC"],
+      "backgroundImage": "../images/backgrounds/user8395.png"
+    },
+    {
+      "name": "WastingStatue23",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "WastingStatue23",
+      "religion": "None",
+      "nations": ["CKLA", "Gibraltar"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "Official_Goose",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "Official_Goose",
+      "religion": "None",
+      "nations": ["CKLA", "Gibraltar"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "CommanderZap",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "CommanderZap",
+      "religion": "None",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "Anna",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "Annagaming133",
+      "religion": "None",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "A_goofy_wizard",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "A_goofy_wizard",
+      "religion": "None",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "BigChungusMC",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "BigChungusMC",
+      "religion": "None",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "theradrad19",
+      "online": "Currently",
+      "discord": "ok",
+      "gamertag": "theradrad19",
+      "religion": "ok",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "PhantomSolace",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "PhantomSolace",
+      "religion": "idk",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "Doodlesplosion",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "Doodlesplosion",
+      "religion": "idk",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "voicemail",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "voice_mail",
+      "religion": "idk",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "MrFish",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "MrFish100",
+      "religion": "idk",
+      "nations": ["CKLA"],
+      "backgroundImage": "../images/backgrounds/ckla.webp"
+    },
+    {
+      "name": "Cosmos",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "Cosmos_Creature",
+      "religion": "idk",
+      "nations": ["Irelånd"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
+    },
+    {
+      "name": "EpicTDQ",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "EpicTDQ",
+      "religion": "idk",
+      "nations": ["Magna Khazaria"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
+    },
+    {
+      "name": "LLHammer",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "LLHammer3",
+      "religion": "idk",
+      "nations": ["Magna Khazaria"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
+    },
+    {
+      "name": "OnlyBrambo",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "OnlyBrambo",
+      "religion": "idk",
+      "nations": ["BSL"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
+    },
+    {
+      "name": "Gamedog",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "Gamedog2021",
+      "religion": "idk",
+      "nations": ["BSL"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
+    },
+    {
+      "name": "Gamedog",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "Gamedog2021",
+      "religion": "idk",
+      "nations": ["BSL"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
+    },
+    {
+      "name": "ProtogenApollo",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "ProtogenApollo",
+      "religion": "idk",
+      "nations": ["Germany"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
+    },
+    {
+      "name": "Ferrivia",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "Ferrivia",
+      "religion": "idk",
+      "nations": ["Florida"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
+    },
+    {
+      "name": "jk64",
+      "online": "Currently",
+      "discord": "idk",
+      "gamertag": "jk64yrsold",
+      "religion": "idk",
+      "nations": ["GLU"],
+      "backgroundImage": "../images/backgrounds/none.jpg"
     }
   ]
 }
