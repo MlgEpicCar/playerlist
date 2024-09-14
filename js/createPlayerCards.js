@@ -18,9 +18,10 @@ function renderPlayerCards(players) {
         memberDiv.style.backgroundImage = `url(${player.backgroundImage})`;
 
         const playerCard = `
-            <p><img src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.gamertag}/full" height="150" alt="${player.name} body"></p>
+            <p><img class="img" src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.gamertag}/full" height="150" alt="${player.name} body"></p>
+            <p><img src="${player.org}" class="icon"></p>
             <div class="memberinfo">
-                <p class="name"><img src="https://mc-heads.net/avatar/${player.gamertag}" height="30" width="30"> ${player.name}</p>
+                <p class="name"><img class="img" src="https://mc-heads.net/avatar/${player.gamertag}" height="30" width="30"> ${player.name}</p>
                 <p><b>Online:</b> ${player.online}</p>
                 <p><b>Discord:</b> ${player.discord}</p>
                 <p><b>Gamertag:</b> ${player.gamertag}</p>
