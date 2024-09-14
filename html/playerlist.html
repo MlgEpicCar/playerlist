@@ -15,13 +15,18 @@
         <div class="container">
             <div class="header">
                 <button id="sort-name">Name</button>
-                <button id="sort-gamertag">Gamertag</button>
                 <p class="title">playerlist</p>
                 <button id="sort-discord">Discord</button>
                 <button id="sort-nation">Nation</button>
+
+                <label for="toggle-display">Name Display</label>
+                <select id="toggle-display">
+                    <option value="name">Display Name</option>
+                    <option value="gamertag">Gamertag</option>
+                </select>
             </div>
-                <div class="content members" id="members-container">
-            </div>
+
+            <div class="content members" id="members-container"></div>
         </div>
 
         <script src="../js/createPlayerCards.js"></script>
