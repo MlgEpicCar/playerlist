@@ -1,0 +1,33 @@
+name: Deploy playerlist
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt
+
+    # - name: Deploy to server
+    #   run: |
+    #     scp -r . brandon@brandon-server:/var/www/playerlist
+    #     ssh brandon@brandon-server 'bash deploy.sh'
+
+    #   # create other user that isnt root/can only access playerlist folder
+    #   env:
+    #     SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
