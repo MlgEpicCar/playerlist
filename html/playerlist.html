@@ -14,16 +14,17 @@
     <body>
         <div class="container">
             <div class="header">
-                <button id="sort-name">Name</button>
                 <p class="title">playerlist</p>
-                <button id="sort-discord">Discord</button>
-                <button id="sort-nation">Nation</button>
-
-                <label for="toggle-display">Name Display</label>
-                <select id="toggle-display">
-                    <option value="name">Display Name</option>
-                    <option value="gamertag">Gamertag</option>
-                </select>
+                <div id="sort-display">
+                    <label>Sort</label>
+                    <button id="sort-name">Name</button>
+                    <button id="sort-discord">Discord</button>
+                    <button id="sort-nation">Nation</button>
+                    <select id="toggle-display">
+                        <option value="name">Display Name</option>
+                        <option value="gamertag">Gamertag</option>
+                    </select>
+                </div>
             </div>
 
             <div class="content members" id="members-container"></div>

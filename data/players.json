@@ -48,7 +48,7 @@
       "religion": "Deggism",
       "nations": ["Ireland", "Carthage"],
       "backgroundImage": "../images/backgrounds/saxboylafranks.png",
-      "org": ""
+      "org": "../images/icons/carthage.png"
     },
     {
       "name": "TareqZayn",

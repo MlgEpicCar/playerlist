@@ -25,7 +25,6 @@ function renderPlayerCards(players) {
 
         const playerCard = `
             <p><img class="img" src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.gamertag}/full" height="150" alt="${player.name} body"></p>
-            <p><img src="${player.org}" class="icon"></p>
             <div class="memberinfo">
                 <p class="name"><img class="img" src="https://mc-heads.net/avatar/${player.gamertag}" height="30" width="30"> ${displayName}</p>
                 <p><b>Online:</b> ${player.online}</p>
@@ -33,6 +32,7 @@ function renderPlayerCards(players) {
                 <p><b>Religion:</b> ${player.religion}</p>
                 <p><b>Nation(s):</b> ${player.nations.join(', ')}</p>
             </div>
+            <img src="${player.org}" class="icon">
         `;
 
         memberDiv.innerHTML = playerCard;

@@ -68,3 +68,32 @@ html, body {
     flex-grow: 1;
     overflow-y: auto;
 }
+
+button, select {
+    background-color: #333333;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 2px;
+    color: white;
+}
+
+button:hover, select:hover {
+    background-color: #464646;
+    cursor: pointer;
+}
+
+.title {
+    margin-right: auto;
+}
+
+#sort-display {
+    background-color: #222222;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+}
+
+#sort-display label {
+    font-weight: 800;
+}

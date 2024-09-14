@@ -81,8 +81,7 @@
 .icon {
     opacity: 50%;
     width: 120px;
-    position: absolute;
     margin: 0;
-    transform: translateX(140%) translateY(-50%) translateZ(0);
     z-index: 0;
+    margin-left: auto;
 }
