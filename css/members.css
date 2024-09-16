@@ -7,7 +7,6 @@
     text-wrap: nowrap;
 }
 
-/* Should replace this with something simple. Its how usainet players works, and that looks decent */
 .members {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(24em, 1fr));
@@ -18,7 +17,6 @@
 
 .member {
     z-index: 1;
-    margin-top: 5px;
     padding: 0px 15px;
     border-radius: 30px;
     display: flex;
@@ -33,6 +31,10 @@
     animation-delay: calc(var(--animation-order) * 75ms);
     animation-fill-mode: backwards;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.player-skin {
+    padding: 1em 0;
 }
 
 .member:hover {

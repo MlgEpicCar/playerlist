@@ -1,4 +1,4 @@
-@keyframes goup {
+@keyframes group {
     0% {transform:translateY(10px); opacity:0;}
     100% {transform:translateY(0); opacity:1;}
 }
@@ -16,13 +16,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: sticky;
     margin-bottom: -15px;
-}
-
-.header img {
-    transition: 200ms;
-    cursor: pointer;
 }
 
 .header img:hover {

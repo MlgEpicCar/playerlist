@@ -6,15 +6,10 @@ let players = [];
 const membersContainer = document.querySelector('.members');
 let displayMode = 'name'; // Default to displaying name
 
-// Name or gamertag display toggle
-document.getElementById('toggle-display').addEventListener('change', (event) => {
-    displayMode = event.target.value;
-    renderPlayerCards(players);
-});
 
 // function that makea da card 
 function renderPlayerCards(players) {
-    membersContainer.innerHTML = '';
+    membersContainer.innerHTML = '';    // needed for repainting the cards when sorting
 
     players.forEach(player => {
         const memberDiv = document.createElement('div');
@@ -23,10 +18,11 @@ function renderPlayerCards(players) {
 
         const displayName = displayMode === 'name' ? player.name : player.gamertag;
 
+        // TODO: don't use HTML in the JS, but create and set the elements directly with JS.
         const playerCard = `
-            <p><img class="img" src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.gamertag}/full" height="150" alt="${player.name} body"></p>
+            <img class="img player-skin" src="https://starlightskins.lunareclipse.studio/render/ultimate/${player.gamertag}/full" height="150" alt="${player.name} body">
             <div class="memberinfo">
-                <p class="name"><img class="img" src="https://mc-heads.net/avatar/${player.gamertag}" height="30" width="30"> ${displayName}</p>
+                <p class="name">${displayName}</p>
                 <p><b>Online:</b> ${player.online}</p>
                 <p><b>Discord:</b> ${player.discord}</p>
                 <p><b>Religion:</b> ${player.religion}</p>
@@ -36,12 +32,21 @@ function renderPlayerCards(players) {
         `;
 
         memberDiv.innerHTML = playerCard;
-        memberDiv.id = player.name;
+        memberDiv.id = player.gamertag;
         membersContainer.appendChild(memberDiv);
     });
 }
 
-// Function to sort players by nations
+fetch('../data/players.json')
+    .then(response => response.json())
+    .then(data => {
+        players = data.players;
+        renderPlayerCards(players);
+    })
+    .catch(error => {
+        console.error('Error loading player data:', error);
+    });
+
 function sortByNations(players) {
     return [...players].sort((a, b) => {
         const nationA = a.nations[0] || '';
@@ -56,29 +61,10 @@ function sortByNations(players) {
     });
 }
 
-// Load player data from JSON
-fetch('../data/players.json')
-    .then(response => response.json())
-    .then(data => {
-        players = data.players;
-        renderPlayerCards(players);
-    })
-    .catch(error => {
-        console.error('Error loading player data:', error);
-    });
-
-
-// TODO: Keep sort option on name display update
-// Name sort, toggles between name and gamertag
-document.getElementById('sort-name').addEventListener('click', () => {
-    const sortedPlayers = [...players].sort((a, b) => {
-        if (displayMode === 'name') {
-            return a.name.localeCompare(b.name);
-        } else {
-            return a.gamertag.localeCompare(b.gamertag);
-        }
-    });
-    renderPlayerCards(sortedPlayers);
+// Name or gamertag display toggle
+document.getElementById('toggle-display').addEventListener('change', (event) => {
+    displayMode = event.target.value;
+    renderPlayerCards(players);
 });
 
 // Discord sort
@@ -93,13 +79,25 @@ document.getElementById('sort-nation').addEventListener('click', () => {
     renderPlayerCards(sortedPlayers);
 })
 
+// TODO: Keep sort option on name display update
+// Name sort, toggles between name and gamertag
+document.getElementById('sort-name').addEventListener('click', () => {
+    const sortedPlayers = [...players].sort((a, b) => {
+        if (displayMode === 'name') {
+            return a.name.localeCompare(b.name);
+        } else {
+            return a.gamertag.localeCompare(b.gamertag);
+        }
+    });
+    renderPlayerCards(sortedPlayers);
+});
+
 
 /*
 NOTE:
-This will not work locally because of CORS. Start a Chrome from PowerShell with the following command to disable web security.
+This will not work locally because of CORS. Start Chrome from PowerShell with the following command to disable web security.
 Start-Process "chrome.exe" -ArgumentList "--user-data-dir=`"C:\Chrome dev session`" --disable-web-security" 
 
 TODO:
-Cache player heads locally as calling an API every time is slow, and may be rate limited
-Don't use HTML in the JS, but create and set the elements directly with JS.
+Cache player skins locally as calling an API every time is slow, and may be rate limited
 */

@@ -5,28 +5,29 @@
         <title>playerlist</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/members.css">
-        <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class="container">
-            <div class="header">
-                <p class="title">playerlist</p>
-                <div id="sort-display">
-                    <label>Sort by</label>
-                    <button id="sort-name">Name</button>
-                    <button id="sort-discord">Discord</button>
-                    <button id="sort-nation">Nation</button>
-                    <select id="toggle-display">
-                        <option value="name">Display Name</option>
-                        <option value="gamertag">Gamertag</option>
-                    </select>
-                </div>
-            </div>
+        <div class="header">
+            <h1 class="title">playerlist</h1>
 
+            <div id="sort-display">
+                <label>Sort by</label>
+                <button id="sort-name">Name</button>
+                <button id="sort-discord">Discord</button>
+                <button id="sort-nation">Nation</button>
+                <select id="toggle-display">
+                    <option value="name">Display Name</option>
+                    <option value="gamertag">Gamertag</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container">
             <div class="content members" id="members-container"></div>
         </div>
 
