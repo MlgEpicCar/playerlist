@@ -1,6 +1,3 @@
-// hi brandonusa i used chatgpt for parts of this, it's sad but chatgpt enanbles me to be able to google the questions that i can't translate into words
-// note: idk how to comment like a pro this is hella informal
-
 // global variable thingy fr
 let players = [];
 const membersContainer = document.querySelector('.members');

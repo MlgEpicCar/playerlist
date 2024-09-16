@@ -82,11 +82,11 @@
     },
     {
       "name": "Gestalten",
-      "online": "Currently",
+      "online": "Deployed",
       "discord": "gestalton",
       "gamertag": "Gestalten",
       "religion": "Coptic",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/gestalten.png",
       "org": ""
     },
@@ -96,7 +96,7 @@
       "discord": "lysfisk",
       "gamertag": "LysFisk",
       "religion": "Coptic",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -106,7 +106,7 @@
       "discord": "tangmar",
       "gamertag": "Tangmar",
       "religion": "Bannism",
-      "nations": ["CKLA", "Gibraltar"],
+      "nations": ["KOH", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/tangymar.png",
       "org": "../images/icons/gibraltar.png"
     },
@@ -196,7 +196,7 @@
       "discord": "smth",
       "gamertag": "blurryyhallow",
       "religion": "None",
-      "nations": ["CKLA", "Gibraltar"],
+      "nations": ["KOH", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -306,7 +306,7 @@
       "discord": "idk",
       "gamertag": "WastingStatue23",
       "religion": "None",
-      "nations": ["CKLA", "Gibraltar"],
+      "nations": ["KOH", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -316,7 +316,7 @@
       "discord": "idk",
       "gamertag": "Official_Goose",
       "religion": "None",
-      "nations": ["CKLA", "Gibraltar"],
+      "nations": ["KOH", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -326,7 +326,7 @@
       "discord": "idk",
       "gamertag": "CommanderZap",
       "religion": "None",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -336,7 +336,7 @@
       "discord": "idk",
       "gamertag": "Annagaming133",
       "religion": "None",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -346,7 +346,7 @@
       "discord": "idk",
       "gamertag": "A_goofy_wizard",
       "religion": "None",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -356,7 +356,7 @@
       "discord": "idk",
       "gamertag": "BigChungusMC",
       "religion": "None",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -366,7 +366,7 @@
       "discord": "ok",
       "gamertag": "theradrad19",
       "religion": "ok",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -376,7 +376,7 @@
       "discord": "idk",
       "gamertag": "PhantomSolace",
       "religion": "idk",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -386,7 +386,7 @@
       "discord": "idk",
       "gamertag": "Doodlesplosion",
       "religion": "idk",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -396,7 +396,7 @@
       "discord": "idk",
       "gamertag": "voice_mail",
       "religion": "idk",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
@@ -406,7 +406,7 @@
       "discord": "idk",
       "gamertag": "MrFish100",
       "religion": "idk",
-      "nations": ["CKLA"],
+      "nations": ["KOH"],
       "backgroundImage": "../images/backgrounds/ckla.webp",
       "org": ""
     },
