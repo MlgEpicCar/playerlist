@@ -11,7 +11,7 @@ function renderPlayerCards(players) {
     players.forEach(player => {
         const memberDiv = document.createElement('div');
         memberDiv.classList.add('member');
-        memberDiv.style.backgroundImage = `url(${player.backgroundImage})`;
+        memberDiv.style.backgroundImage = ` url(${player.org}), linear-gradient(#00000033, #00000093), url(${player.backgroundImage})`;
 
         const displayName = displayMode === 'name' ? player.name : player.gamertag;
 
@@ -25,7 +25,6 @@ function renderPlayerCards(players) {
                 <p><b>Religion:</b> ${player.religion}</p>
                 <p><b>Nation(s):</b> ${player.nations.join(', ')}</p>
             </div>
-            <img src="${player.org}" class="icon">
         `;
 
         memberDiv.innerHTML = playerCard;
