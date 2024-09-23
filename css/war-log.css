@@ -54,3 +54,12 @@
     font-size: 11pt;
     margin-bottom: -5px;
 }
+
+.container {
+    padding-top: 55px;
+}
+
+.header {
+    padding: 15px 20px;
+    height: 35px;
+}
