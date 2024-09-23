@@ -1,6 +1,6 @@
 .war {
     z-index: 1;
-    padding: 0px 15px;
+    padding: 20px 20px;
     border-radius: 30px;
     box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.2) inset,
     0 8px 20px 0 #00000083;
@@ -9,6 +9,12 @@
     animation-delay: calc(var(--animation-order) * 75ms);
     animation-fill-mode: backwards;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    margin-bottom: 10px;
+    padding-bottom: 25px;;
+}
+
+.teams {
+    display: flex;
 }
 
 .content {
@@ -20,27 +26,31 @@
 }
 
 .war-name {
-    padding: 25px 15px;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-decoration: underline #FFFFFF50;
 }
 
 .team1 {
-    width: 50%;
     text-align: left;
     /* hey debuggy make this go to the left */
 }
 
 .team2 {
-    width: 50%;
     text-align: right;
+    margin-left: auto;
     /* hey debuggy make this go to the right */
 }
 
 .nation {
     font-weight: 800;
     font-size: 18pt;
+    margin-bottom: -5px;
+    margin-top: 35px;
 }
 
 .town {
     font-size: 11pt;
+    margin-bottom: -5px;
 }
