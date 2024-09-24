@@ -8,7 +8,7 @@
       "religion": "Deggism",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png",
-      "org": "../images/icons/carthage.png"
+      "org": "../images/emblems/carthage.png"
     },
     {
       "name": "Thilman",
@@ -18,7 +18,7 @@
       "religion": "Deggism",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png",
-      "org": "../images/icons/carthage.png"
+      "org": "../images/emblems/carthage.png"
     },
     {
       "name": "debuggy",
@@ -28,7 +28,7 @@
       "religion": "Deggism",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png",
-      "org": "../images/icons/carthage.png"
+      "org": "../images/emblems/carthage.png"
     },
     {
       "name": "ovcak",
@@ -38,7 +38,7 @@
       "religion": "Deggism",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png",
-      "org": "../images/icons/carthage.png"
+      "org": "../images/emblems/carthage.png"
     },
     {
       "name": "SaxboyLaFranks",
@@ -48,7 +48,7 @@
       "religion": "Deggism",
       "nations": ["Ireland", "Carthage"],
       "backgroundImage": "../images/backgrounds/saxboylafranks.png",
-      "org": "../images/icons/carthage.png"
+      "org": "../images/emblems/carthage.png"
     },
     {
       "name": "TareqZayn",
@@ -58,7 +58,7 @@
       "religion": "Tac",
       "nations": ["Carthage"],
       "backgroundImage": "../images/backgrounds/carthage.png",
-      "org": "../images/icons/carthage.png"
+      "org": "../images/emblems/carthage.png"
     },
     {
       "name": "MlgEpicCar",
@@ -68,7 +68,7 @@
       "religion": "Bannism",
       "nations": ["Italy", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/mlgepiccar.png",
-      "org": "../images/icons/phantom.png"
+      "org": "../images/emblems/phantom.png"
     },
     {
       "name": "Pie",
@@ -108,7 +108,7 @@
       "religion": "Bannism",
       "nations": ["KOH", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/tangymar.png",
-      "org": "../images/icons/gibraltar.png"
+      "org": "../images/emblems/gibraltar.png"
     },
     {
       "name": "Colusius",
@@ -188,7 +188,7 @@
       "religion": "None",
       "nations": ["Italy", "Gibraltar"],
       "backgroundImage": "../images/backgrounds/coolneighborhood.png",
-      "org": "../images/icons/gibraltar.png"
+      "org": "../images/emblems/gibraltar.png"
     },
     {
       "name": "Hallow",
@@ -208,7 +208,7 @@
       "religion": "None",
       "nations": ["USAI"],
       "backgroundImage": "../images/backgrounds/usai_beacon.png",
-      "org": "../images/icons/usai.png"
+      "org": "../images/emblems/usai.png"
     },
     {
       "name": "josamo",
@@ -218,7 +218,7 @@
       "religion": "None",
       "nations": ["USAI"],
       "backgroundImage": "../images/backgrounds/usai_obsidian.png",
-      "org": "../images/icons/usai.png"
+      "org": "../images/emblems/usai.png"
     },
     {
       "name": "GeneticEmo",

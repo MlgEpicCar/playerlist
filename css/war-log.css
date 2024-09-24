@@ -31,12 +31,19 @@
     margin-bottom: 0px;
     text-decoration: underline #FFFFFF50;
 }
+.war-type {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
 
 .team1 {
+    margin-left: 2em;
     text-align: left;
 }
 
 .team2 {
+    margin-right: 2em;
     text-align: left;
     margin-left: auto;
 }
@@ -44,6 +51,14 @@
 .nation {
     font-weight: 800;
     font-size: 18pt;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.secondary-nation {
+    color: rgb(158, 158, 158);
+    font-weight: 800;
+    font-size: 16pt;
     margin-bottom: -5px;
     display: inline-block;
 }
@@ -64,4 +79,12 @@
 
 .flag {
     height: 18pt;
+}
+
+.army {
+    margin-top: 20px;
+}
+
+.soldier {
+    height: 40px;
 }
