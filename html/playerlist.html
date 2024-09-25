@@ -9,15 +9,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
 
     <body>
-        <div class="header">
+        <nav>
             <h1 class="title">
-                <a class="active" href="../html/playerlist.html">playerlist</a>
-                <a href="../html/war-log.html">war-log</a>
+                <a class="header-link active" href="../html/playerlist.html">playerlist</a>
+                <a class="header-link" href="../html/war-log.html">war-log</a>
             </h1>
-            <div id="sort-display">
+            <div id="sort-options">
                 <label>Sort by:</label>
                 <button id="sort-name">Name</button>
                 <button id="sort-discord">Discord</button>
@@ -27,12 +28,18 @@
                     <option value="gamertag">Gamertag</option>
                 </select>
             </div>
-        </div>
+        </nav>
 
         <div class="container">
             <div class="content members" id="members-container"></div>
         </div>
 
+        <footer>
+            <div class="github-icon">
+                <a href="https://github.com/MlgEpicCar/playerlist/tree/main" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </footer>
+        
         <script src="../js/createPlayerCards.js"></script>
     </body>
 </html>

@@ -71,11 +71,3 @@
         width: 25px;
     }
 }
-
-.icon {
-    opacity: 50%;
-    width: 120px;
-    margin: 0;
-    z-index: 0;
-    display: absolute;
-}

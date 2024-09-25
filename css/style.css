@@ -8,7 +8,21 @@ html, body {
     font-family: Figtree;
 }
 
-.header {
+.title {
+    margin-right: auto;
+    text-align: center;
+    color: #929292;
+    font-weight: 700;
+    font-size: 18pt;
+    transition: 1s;
+    text-wrap: nowrap;
+}
+
+.active {
+    color: #ffffff;
+}
+
+nav {
     background-image: linear-gradient(#171717f5, #171717ab 80%, #17171700);
     height: 35px;
     padding: 15px 20px;
@@ -23,8 +37,13 @@ html, body {
     z-index: 2;
 }
 
-.header img:hover {
-    filter: drop-shadow(0px 0px 10px #E1B351);
+.header-link {
+    padding-right: 1em;
+}
+
+h1, a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .container {
@@ -43,29 +62,51 @@ html, body {
 }
 
 button, select {
+    color: white;
     background-color: #ffffff20;
     border: 1px solid #ffffff20;
     border-radius: 20px;
     padding: 5px 10px;
     margin-left: 2px;
-    color: white;
     font-family: Figtree;
     backdrop-filter: blur(10px);
 }
 
-button:hover, select:hover {
-    background-color: #ffffff30;
-    cursor: pointer;
+option {
+    background-color: #171717;
+    color: white;
 }
 
-#sort-display {
+button:hover, select:hover {
+    background-color: #ffffff30;
+}
+
+#sort-options {
     border-radius: 10px;
     color: white;
     padding: 5px 10px;
 }
 
-#sort-display label {
+#sort-options label {
     font-weight: 800;
+}
+
+footer {
+    padding: 0.6em;
+
+}
+
+.github-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.fab.fa-github {
+    color: #ffffff;
+    font-size: 2em;
+
 }
 
 @media screen and (max-width: 750px) {   
@@ -90,22 +131,3 @@ button:hover, select:hover {
     }
 }
 
-.title {
-    margin-right: auto;
-    text-align: center;
-    color: #929292;
-    font-weight: 700;
-    font-size: 18pt;
-    transition: 1s;
-    text-wrap: nowrap;
-}
-
-h1, a {
-    padding-right: 1em;
-    color: inherit;
-    text-decoration: none;
-}
-
-.active {
-    color: #ffffff;
-}

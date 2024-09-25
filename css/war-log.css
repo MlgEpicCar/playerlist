@@ -17,14 +17,6 @@
     display: flex;
 }
 
-.content {
-    color: white;
-    padding: 15px;
-    height: 100%;
-    flex-grow: 1;
-    overflow-y: auto;
-}
-
 .war-name {
     text-align: center;
     margin-top: 5px;
@@ -70,11 +62,6 @@
 
 .container {
     padding-top: 55px;
-}
-
-.header {
-    padding: 15px 20px;
-    height: 35px;
 }
 
 .flag {
